@@ -13,7 +13,7 @@ public class SpinProbabilityGUI extends JFrame implements ActionListener {
         super("Spin Probability Calculator");
 
         // Initialize UI components
-        percentageLabel = new JLabel("Desired Percentage:");
+        percentageLabel = new JLabel("Chance of success:");
         percentageInput = new JTextField(10);
         spinsLabel = new JLabel("Number of Spins:");
         spinsInput = new JTextField(10);
